@@ -17,7 +17,7 @@ client.on("message", (msg) => {
         msg.channel.send(lnk)       
     }
     if(message.includes(".!info")){
-        msg.channel.send("Welcome to WikiBot! This bot allows you to get the wikipedia article to anything you type in discord. Use './title of article' to search now!")       
+        msg.channel.send("This bot allows you to get the Wikipedia article to anything you type in discord. Use './title of article' to search now!")       
     }
 })
 client.login(login_token)
